@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/reverse-geocoding.iml" filepath="$PROJECT_DIR$/.idea/modules/reverse-geocoding.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/reverse-geocoding_main.iml" filepath="$PROJECT_DIR$/.idea/modules/reverse-geocoding_main.iml" group="reverse-geocoding" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/reverse-geocoding_test.iml" filepath="$PROJECT_DIR$/.idea/modules/reverse-geocoding_test.iml" group="reverse-geocoding" />
+    </modules>
+  </component>
+</project>

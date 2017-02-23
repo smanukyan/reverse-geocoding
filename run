@@ -1,0 +1,3 @@
+#!/usr/bin/env sh
+
+java -jar build/libs/reverse-geocoding-0.1.0.jar
