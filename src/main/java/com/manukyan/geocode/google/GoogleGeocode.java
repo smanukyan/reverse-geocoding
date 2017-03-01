@@ -3,18 +3,18 @@ package com.manukyan.geocode.google;
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 
 @JsonIgnoreProperties(ignoreUnknown = true)
-class Geocode {
+class GoogleGeocode {
 
-    private GeocodeResult[] results;
+    private GoogleGeocodeResult[] results;
 
-    public Geocode() {
+    public GoogleGeocode() {
     }
 
-    public GeocodeResult[] getResults() {
+    public GoogleGeocodeResult[] getResults() {
         return results;
     }
 
-    public void setResults(GeocodeResult[] results) {
+    public void setResults(GoogleGeocodeResult[] results) {
         this.results = results;
     }
 }
