@@ -1,3 +1,0 @@
-Reverse Geocoding Stack
-Spring Boot
-Java
