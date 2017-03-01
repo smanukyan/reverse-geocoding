@@ -1,0 +1,40 @@
+= Reverse Geocoding Sample
+
+This sample demonstrates a reverse geocoding REST API implemented using Google Reverse Geocoding API.
+
+== Technology Stack
+
+* `Java 8`
+* `Gradle`
+* `Spring Boot`
+* `Jackson`
+* `EhCache`
+
+== Project Build & Run
+
+To build the project :
+`./gradlew build`
+
+To run the service :
+`./run`
+
+To end the service :
+`./end`
+
+== REST endpoints
+
+To GET geocode address TEXT by latitude & longitude :
+`curl http://localhost:8080/geocode-address/{latitude}/{longitude}`
+
+To GET geocode JSON by latitude & longitude :
+`curl http://localhost:8080/geocode/{latitude}/{longitude}`
+
+To GET last 10 cached geocodes as array of JSON objects:
+`curl http://localhost:8080/geocodes-last10`
+
+
+
+
+
+
+
