@@ -11,6 +11,9 @@
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="module" module-name="reverse-geocoding_main" />
     <orderEntry type="library" name="Gradle: org.springframework.boot:spring-boot-starter-web:1.5.1.RELEASE" level="project" />
+    <orderEntry type="library" name="Gradle: org.springframework.boot:spring-boot-starter-cache:1.5.1.RELEASE" level="project" />
+    <orderEntry type="library" name="Gradle: javax.cache:cache-api:1.0.0" level="project" />
+    <orderEntry type="library" name="Gradle: org.ehcache:ehcache:3.2.0" level="project" />
     <orderEntry type="library" name="Gradle: org.springframework.boot:spring-boot-starter-actuator:1.5.1.RELEASE" level="project" />
     <orderEntry type="library" name="Gradle: org.springframework.boot:spring-boot-starter-test:1.5.1.RELEASE" level="project" />
     <orderEntry type="library" name="Gradle: org.springframework.boot:spring-boot-starter:1.5.1.RELEASE" level="project" />
@@ -19,6 +22,9 @@
     <orderEntry type="library" name="Gradle: com.fasterxml.jackson.core:jackson-databind:2.8.6" level="project" />
     <orderEntry type="library" name="Gradle: org.springframework:spring-web:4.3.6.RELEASE" level="project" />
     <orderEntry type="library" name="Gradle: org.springframework:spring-webmvc:4.3.6.RELEASE" level="project" />
+    <orderEntry type="library" name="Gradle: org.springframework:spring-context:4.3.6.RELEASE" level="project" />
+    <orderEntry type="library" name="Gradle: org.springframework:spring-context-support:4.3.6.RELEASE" level="project" />
+    <orderEntry type="library" name="Gradle: org.slf4j:slf4j-api:1.7.22" level="project" />
     <orderEntry type="library" name="Gradle: org.springframework.boot:spring-boot-actuator:1.5.1.RELEASE" level="project" />
     <orderEntry type="library" name="Gradle: org.springframework.boot:spring-boot-test:1.5.1.RELEASE" level="project" />
     <orderEntry type="library" name="Gradle: org.springframework.boot:spring-boot-test-autoconfigure:1.5.1.RELEASE" level="project" />
@@ -45,10 +51,8 @@
     <orderEntry type="library" name="Gradle: com.fasterxml.jackson.core:jackson-core:2.8.6" level="project" />
     <orderEntry type="library" name="Gradle: org.springframework:spring-aop:4.3.6.RELEASE" level="project" />
     <orderEntry type="library" name="Gradle: org.springframework:spring-beans:4.3.6.RELEASE" level="project" />
-    <orderEntry type="library" name="Gradle: org.springframework:spring-context:4.3.6.RELEASE" level="project" />
     <orderEntry type="library" name="Gradle: org.springframework:spring-expression:4.3.6.RELEASE" level="project" />
     <orderEntry type="library" name="Gradle: net.minidev:json-smart:2.2.1" level="project" />
-    <orderEntry type="library" name="Gradle: org.slf4j:slf4j-api:1.7.22" level="project" />
     <orderEntry type="library" name="Gradle: org.objenesis:objenesis:2.1" level="project" />
     <orderEntry type="library" name="Gradle: com.vaadin.external.google:android-json:0.0.20131108.vaadin1" level="project" />
     <orderEntry type="library" name="Gradle: ch.qos.logback:logback-classic:1.1.9" level="project" />
