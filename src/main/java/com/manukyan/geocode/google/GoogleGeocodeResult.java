@@ -4,12 +4,12 @@ import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 import com.fasterxml.jackson.annotation.JsonProperty;
 
 @JsonIgnoreProperties(ignoreUnknown = true)
-class GeocodeResult {
+class GoogleGeocodeResult {
 
     @JsonProperty("formatted_address")
     private String formattedAddress;
 
-    public GeocodeResult() {
+    public GoogleGeocodeResult() {
     }
 
     public String getFormattedAddress() {
